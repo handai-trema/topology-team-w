@@ -45,13 +45,15 @@ class TopologyController < Trema::Controller
 
   def packet_in(dpid, packet_in)
     if packet_in.lldp?
-      @topology.maybe_add_link Link.new(dpid, packet_in)
+     @topology.maybe_add_link Link.new(dpid, packet_in)
     else
-      @topology.maybe_add_host(packet_in.source_mac,
-                               packet_in.source_ip_address,
+#p packet_in.data
+      @topology.maybe_add_host(packet_in.data[:source_mac],
+                               packet_in.data[:sender_protocol_address],
                                dpid,
                                packet_in.in_port)
-    end
+
+   end
   end
 
   def flood_lldp_frames
