@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+$(document).ready(function () {
+    $.getJSON("tmp/topology.json", function(data){
+    for(var i in data[0].nodes)
+    $("#output").append("dpid" + data[0].nodes[1].id + "-" + data[0].nodes[1].label);
+
+
+    });
+});
+</script>
+tets<ul id="output"></ul>
+
+</body>
+</html>
