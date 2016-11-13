@@ -2,6 +2,7 @@ require 'link'
 
 # Topology information containing the list of known switches, ports,
 # and links.
+# ホストを抜き差しするとエラーが出て止まる。原因不明（エラーメッセージはバッファ関連？）。ホストを刺したまま動かすと止まらない。
 class Topology
   Port = Struct.new(:dpid, :port_no) do
     alias_method :number, :port_no
@@ -72,9 +73,9 @@ class Topology
   end
 
   def maybe_add_host(*host)
-    return if @hosts.include?(host)
+    mac_address, ip_address, dpid, port_no = *host
+    return if @hosts.include?(host) || ip_address == nil
     @hosts << host
-    mac_address, _ip_address, dpid, port_no = *host
     maybe_send_handler :add_host, mac_address, Port.new(dpid, port_no), self
   end
 
@@ -92,6 +93,11 @@ class Topology
       port_b = Port.new(each.dpid_b, each.port_b)
       maybe_send_handler :delete_link, port_a, port_b, self
     end
+  end
+
+  def maybe_delete_host(port)
+    @hosts.delete_if { |each| each[3] == port.number && each[2] == port.dpid }
+    maybe_send_handler :delete_host, port, self
   end
 
   def maybe_send_handler(method, *args)
