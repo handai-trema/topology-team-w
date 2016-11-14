@@ -90,9 +90,9 @@ exit
 
 ### 2. 全ポートを適当にケーブリング
 
-|<img src="https://github.com/handai-trema/topology-handm/blob/develop/img/working2.jpg" width="420px">|  
+|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
 |:----------------------------------------------------------------------------------------------------:|  
-|                                   ケーブルの抜きさしを行っているところ                                     |  
+|                                   図１ ケーブルの様子		                                       |  
 
 
 ### 3. Topologyを使ってトポロジを表示
