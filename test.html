@@ -17,76 +17,9 @@
 </head>
 <body>
 
-<script type="text/javascript">
-
-var n_data = new Array();
-var l_data = new Array();
-
-$(document).ready(function (n_data, l_data) {
-    $.getJSON("tmp/topology.json", function(data){
-$("#node_list").append("[");
-        for(var i in data[0].nodes){
-          if (i != 0) { $("#node_list").append(", "); }
-//            $("#output").append(data[0].nodes[i].id+ " "+ data[0].nodes[i].label  + " ");
-//$("#output").append(data[0].nodes[i]);
-           $("#node_list").append("{ id:"+data[0].nodes[i].id+", "+"label:\""+data[0].nodes[i].label+"\"}");
-
-            tmp = i;
-        }
-        for(var i in data[0].hosts){
-          if (i != 0) { $("#node_list").append(", "); }
-           $("#node_list").append("{ id:"+data[0].hosts[i].id+", "+"label:\""+data[0].hosts[i].label+"\"}");
-            n_data[tmp+i+1] = { id: data[0].hosts[i].id, label: data[0].hosts[i].label };
-        }
-$("#node_list").append("]");
-
-$("#link_list").append("[");
-        for(var i in data[0].links){
-          if (i != 0) { $("#link_list").append(", "); }
-//            $("#output").append(data[0].nodes[i].id+ " "+ data[0].nodes[i].label  + " ");
-//$("#output").append(data[0].nodes[i]);
-           $("#link_list").append("{ from:"+data[0].links[i].from+", "+"to:\""+data[0].links[i].to+"\"}");
-        }
-$("#link_list").append("]");
-
-    });
-});
-
-document.write(n_data);
-</script>
-
 <div id="mynetwork"></div>
+<!-- 単純に分離しただけなのでid="mynetwork"じゃないとこのスクリプト動かないです -->
+<script type="text/javascript" src="Draw_network.js"></script>
 
-<script type="text/javascript">
-
-var options={};
-/*
-var options = {
-  manipulation: false,
-  height: '90%',
-  layout: {
-    hierarchical: {
-      enabled: true,
-      levelSeparation: 300
-    }
-  },
-  physics: {
-    hierarchicalRepulsion: {
-      nodeDistance: 300
-    }
-  }
-};
-*/
-var nodes = new vis.DataSet(
-<html id="node_list"></>
-);
-var edges = new vis.DataSet(
-//<div id="link_list"></ul>
-);
-var container = document.getElementById('mynetwork');
-var data = {'nodes': nodes, 'edges': edges};
-var network = new vis.Network(container, data, options);
-
-</script>
 </body>
 </html>
