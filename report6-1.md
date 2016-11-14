@@ -80,7 +80,7 @@ exit
 
 :（略）
 
-interface range gigabitethernet0/6-48
+interface range gigabitethernet0/46-48
 switchportmode dot1q-tunnel
 switchportaccess vlan 200
 exit
@@ -89,6 +89,8 @@ exit
 
 
 ### 2. 全ポートを適当にケーブリング
+
+適当に全ポートに対してケーブリングを行った、その様子を図１に示す。
 
 |<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
 |:----------------------------------------------------------------------------------------------------:|  
