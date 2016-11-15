@@ -5,7 +5,6 @@ module View
   class VisJs
     def initialize(output = 'topology.json')
       @output = output
-      @nodes = Array.new { [] }
     end
 
     # rubocop:disable AbcSize
@@ -21,16 +20,17 @@ module View
       end
       i = 0
       hosts = topology.hosts.each_with_object({}) do |each, tmp|
-        tmp[i] = { "id"=> nodes.length+i+1, "label"=> each[1].to_s }
+        tmp[i] = { "id"=> 100+i, "label"=> each[1].to_s }
         i += 1
       end
       i = 0
       h_links = topology.hosts.each_with_object({}) do |each, tmp|
-        tmp[nodes.length+i] = { "from"=> each[2], "to"=> nodes.length+i+1 }
+#        tmp[nodes.length+i] = { "from"=> each[2], "to"=> nodes.length+i+2 }
+         tmp[nodes.length+i] = { "from"=> each[2], "to"=> 100+i }
         i += 1
       end
       open(@output, "w") do |io|
-        JSON.dump([ "nodes"=> nodes.values, "hosts"=> hosts.values, "links"=> links.values], io)
+        JSON.dump([ "nodes"=> nodes.values, "hosts"=> hosts.values, "links"=> links.merge(h_links).values], io)
       end
     end
     # rubocop:enable AbcSize
