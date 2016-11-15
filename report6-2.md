@@ -9,7 +9,8 @@
 htmlでネットワークトポロジを読み込むため，json形式でトポロジ情報を出力するメソッドを作成した（visJs.rb）．
 JOSN.damp() のメソッドを用いて json 形式でトポロジ情報を出力している．
 
-'''require 'json'
+'''
+require 'json'
 
 module View
   # Topology controller's GUI (vis).
@@ -50,6 +51,7 @@ module View
       "vizJs mode, output = #{@output}"
     end
   end
-end'''
+end
+'''
 
 このメソッドにより出力されたtopology.jsonを，javascript(Draw_network.js)により読み込み，ブラウザ上で表示させるhtml(test.html)を作成した．
