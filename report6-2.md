@@ -1,15 +1,15 @@
-## �ۑ�2 (�g�|���W�R���g���[���̊g��)
+## 課題2 (トポロジコントローラの拡張)
 
-* �X�C�b�`�̐ڑ��֌W�ɉ����āA�z�X�g�̐ڑ��֌W��\������
-* �u���E�U�ŕ\������@�\��ǉ�����B�������߂� [vis.js](https://github.com/almende/vis) �ł�
+* スイッチの接続関係に加えて、ホストの接続関係を表示する
+* ブラウザで表示する機能を追加する。おすすめは [vis.js](https://github.com/almende/vis) です
 
-## �R���Z�v�g
+## コンセプト
 
-�ڑ��󋵂����A���^�C����web�y�[�W�ŕ\�����邽�߁Chtml����javascript��p���ĉ摜��\��������D
-html�Ńl�b�g���[�N�g�|���W��ǂݍ��ނ��߁Cjson�`���Ńg�|���W�����o�͂��郁�\�b�h���쐬�����ivisJs.rb�j�D
-JOSN.damp() �̃��\�b�h��p���� json �`���Ńg�|���W�����o�͂��Ă���D
+接続状況をリアルタイムにwebページで表示するため，html中のjavascriptを用いて画像を表示させる．
+htmlでネットワークトポロジを読み込むため，json形式でトポロジ情報を出力するメソッドを作成した（visJs.rb）．
+JOSN.damp() のメソッドを用いて json 形式でトポロジ情報を出力している．
 
-'''
+```
 require 'json'
 
 module View
@@ -52,6 +52,6 @@ module View
     end
   end
 end
-'''
+```
 
-���̃��\�b�h�ɂ��o�͂��ꂽtopology.json���Cjavascript(Draw_network.js)�ɂ��ǂݍ��݁C�u���E�U��ŕ\��������html(test.html)���쐬�����D
+このメソッドにより出力されたtopology.jsonを，javascript(Draw_network.js)により読み込み，ブラウザ上で表示させるhtml(test.html)を作成した．
