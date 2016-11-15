@@ -1,13 +1,28 @@
-## èª²é¡Œ2 (ãƒˆãƒãƒ­ã‚¸ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ã®æ‹¡å¼µ)
+## ‰Û‘è2 (ƒgƒ|ƒƒWƒRƒ“ƒgƒ[ƒ‰‚ÌŠg’£)
 
-* ã‚¹ã‚¤ãƒƒãƒã®æ¥ç¶šé–¢ä¿‚ã«åŠ ãˆã¦ã€ãƒ›ã‚¹ãƒˆã®æ¥ç¶šé–¢ä¿‚ã‚’è¡¨ç¤ºã™ã‚‹
-* ãƒ–ãƒ©ã‚¦ã‚¶ã§è¡¨ç¤ºã™ã‚‹æ©Ÿèƒ½ã‚’è¿½åŠ ã™ã‚‹ã€‚ãŠã™ã™ã‚ã¯ [vis.js](https://github.com/almende/vis) ã§ã™
+* ƒXƒCƒbƒ`‚ÌÚ‘±ŠÖŒW‚É‰Á‚¦‚ÄAƒzƒXƒg‚ÌÚ‘±ŠÖŒW‚ğ•\¦‚·‚é
+* ƒuƒ‰ƒEƒU‚Å•\¦‚·‚é‹@”\‚ğ’Ç‰Á‚·‚éB‚¨‚·‚·‚ß‚Í [vis.js](https://github.com/almende/vis) ‚Å‚·
 
-## ã‚³ãƒ³ã‚»ãƒ—ãƒˆ
+### ƒOƒ‹[ƒvƒƒ“ƒo[
 
-æ¥ç¶šçŠ¶æ³ã‚’ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ ã«webãƒšãƒ¼ã‚¸ã§è¡¨ç¤ºã™ã‚‹ãŸã‚ï¼Œhtmlä¸­ã®javascriptã‚’ç”¨ã„ã¦ç”»åƒã‚’è¡¨ç¤ºã•ã›ã‚‹ï¼
-htmlã§ãƒãƒƒãƒˆãƒ¯ãƒ¼ã‚¯ãƒˆãƒãƒ­ã‚¸ã‚’èª­ã¿è¾¼ã‚€ãŸã‚ï¼Œjsonå½¢å¼ã§ãƒˆãƒãƒ­ã‚¸æƒ…å ±ã‚’å‡ºåŠ›ã™ã‚‹ãƒ¡ã‚½ãƒƒãƒ‰ã‚’ä½œæˆã—ãŸï¼ˆvisJs.rbï¼‰ï¼
-JOSN.damp() ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’ç”¨ã„ã¦ json å½¢å¼ã§ãƒˆãƒãƒ­ã‚¸æƒ…å ±ã‚’å‡ºåŠ›ã—ã¦ã„ã‚‹ï¼
+* –Ø“¡ ’l
+
+* ‹âˆÇ ˆê‹P
+
+* ‰i•x Œ«
+
+* ‹ÑD G
+
+* ‘ºã —É
+
+## ‰ğ“š
+
+
+### ƒtƒ@ƒCƒ‹o—Í
+Ú‘±ó‹µ‚ğƒŠƒAƒ‹ƒ^ƒCƒ€‚Éwebƒy[ƒW‚Å•\¦‚·‚é‚½‚ßChtml’†‚Ìjavascript‚ğ—p‚¢‚Äƒgƒ|ƒƒW}‚ğ•\¦‚³‚¹‚éD
+html‚Åƒgƒ|ƒƒWî•ñ‚ğ“Ç‚İ‚Ş‚½‚ßCjsonŒ`®‚Åƒgƒ|ƒƒWî•ñ‚ğo—Í‚·‚éƒƒ\ƒbƒh‚ğì¬‚µ‚½ivisJs.rbjD
+visJs.rb ‚Å‚ÍCJOSN.damp() ‚Ìƒƒ\ƒbƒh‚ğ—p‚¢‚Ä json Œ`®‚Åƒgƒ|ƒƒWî•ñ‚ğo—Í‚µ‚Ä‚¢‚éD
+topology.rb ‚©‚ç VisJs ƒNƒ‰ƒX‚Ì Update ƒƒ\ƒbƒh‚ğŒÄ‚Ño‚·‚±‚Æ‚Å json Œ`®‚Åƒgƒ|ƒƒWî•ñ‚ªo—Í‚³‚ê‚éD
 
 ```
 require 'json'
@@ -17,7 +32,6 @@ module View
   class VisJs
     def initialize(output = 'topology.json')
       @output = output
-      @nodes = Array.new { [] }
     end
 
     # rubocop:disable AbcSize
@@ -54,4 +68,76 @@ module View
 end
 ```
 
-ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã«ã‚ˆã‚Šå‡ºåŠ›ã•ã‚ŒãŸtopology.jsonã‚’ï¼Œjavascript(Draw_network.js)ã«ã‚ˆã‚Šèª­ã¿è¾¼ã¿ï¼Œãƒ–ãƒ©ã‚¦ã‚¶ä¸Šã§è¡¨ç¤ºã•ã›ã‚‹html(test.html)ã‚’ä½œæˆã—ãŸï¼
+‚±‚Ìƒƒ\ƒbƒh‚É‚æ‚èo—Í‚³‚ê‚½topology.json‚ğCjavascript(Draw_network.js)‚É‚æ‚è“Ç‚İ‚İCƒuƒ‰ƒEƒUã‚Å•\¦‚³‚¹‚éhtml(test.html)‚ğì¬‚µ‚½D
+test.html ‚Å‚ÍCDraw_network.js ‚Åo—Í‚³‚ê‚½ƒgƒ|ƒƒW‰æ‘œ‚ğo—Í‚µ‚Ä‚¢‚éD
+
+### ƒgƒ|ƒƒW‰æ‘œ‚Ìo—Í
+Draw_network.js ‚Å‚ÍCafterInit function ‚Å json Œ`®‚Ìƒtƒ@ƒCƒ‹‚ğ“Ç‚İ‚ñ‚Å‚¢‚éD
+‚±‚Ì‚Æ‚« checkObjDiff function ‚ğ—p‚¢‚Ä‘O‰ñ“Ç‚İ‚ñ‚¾ json Œ`®‚Ìƒtƒ@ƒCƒ‹‚Æ‚Ì·•ª‚ª–³‚¢ê‡‚Íƒtƒ@ƒCƒ‹“Ç‚İ‚İ‚ğs‚í‚È‚¢D
+
+```
+  var afterInit = function(jsonData) {
+    console.log('afterInit', jsonData);
+    if (!checkObjDiff(pre_data, jsonData)){
+      return;
+    }
+    pre_data = jsonData;
+    var n_data = new Array();
+    var l_data = new Array();
+        var tmp = new Object();
+        for(var i in jsonData[0].nodes){
+           tmp = { id:+jsonData[0].nodes[i].id, label:jsonData[0].nodes[i].label, image: './switch.png', shape: 'image'};
+           n_data.push( tmp );
+        }
+        for(var i in jsonData[0].hosts){
+           tmp = { id:+jsonData[0].hosts[i].id, label:jsonData[0].hosts[i].label, image: './computer_laptop.png', shape: 'image'}
+           n_data.push( tmp );
+        }
+        for(var i in jsonData[0].links){
+           tmp = { id:jsonData[0].links[i].id, from:jsonData[0].links[i].from, to:jsonData[0].links[i].to, length: EDGE_LENGTH}
+           l_data.push( tmp );
+        }
+    drawgraph(n_data, l_data);
+  };
+
+ var checkObjDiff = function(object1, object2) {
+    // object‚Ì’†g‚ğjson‰»‚·‚é
+    var object1String = JSON.stringify(object1); 
+    var object2String = JSON.stringify(object2);
+    // json•¶š—ñ‚Å”äŠr‚·‚é
+    if (object1String === object2String) {
+      return false; // “™‚µ‚¯‚ê‚Îfalse
+    } else {
+      return true; // ·•ª‚ª‚ ‚ê‚Îtrue
+    }
+  }
+
+```
+
+drawgraph function ‚É‚æ‚èCafterInit function ‚Åæ‚è‚ñ‚¾ json Œ`®‚Ìƒtƒ@ƒCƒ‹‚ğŒ³‚Éƒgƒ|ƒƒW‰æ‘œ‚ğì¬‚µ‚Ä‚¢‚éD
+DataSet ‚É‚æ‚èƒtƒ@ƒCƒ‹‚©‚çæ‚è‚ñ‚¾ƒf[ƒ^‚ğ vis ‚É“ü—Í‚µ‚ÄCNetwork ‚Åƒgƒ|ƒƒW‰æ‘œ‚ğ•\¦‚µ‚Ä‚¢‚éD
+
+```
+  var drawgraph = function(node_data, link_data){
+ 
+     console.log('afterInit', pre_data); 
+
+    var options={};
+    var nodes = new vis.DataSet(node_data);
+    var edges = new vis.DataSet(link_data);
+    var container = document.getElementById('mynetwork');
+    var data = {'nodes': nodes, 'edges': edges};
+    var network = new vis.Network(container, data, options);
+  }
+```
+
+## “®ìŠm”F
+Ê^‚Ì‚æ‚¤‚ÉÚ‘±‚µ‚½ê‡CŸ‚Ì‚æ‚¤‚Èƒgƒ|ƒƒW‰æ‘œ‚ªo—Í‚³‚ê‚½D
+‚Ü‚½CŸ‚ÌÊ^‚Ì‚æ‚¤‚ÉÚ‘±‚µ‚½ê‡Cƒgƒ|ƒƒW‰æ‘œ‚ªŸ‚Ì‚æ‚¤‚É•ÏX‚³‚ê‚½D
+
+## vŒ£“x
+–Ø“¡: 60%  
+‹âˆÇ: 10%  
+‰i•x: 10%  
+‹ÑD: 10%  
+‘ºã: 10%
