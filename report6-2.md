@@ -1,28 +1,28 @@
-## ‰Û‘è2 (ƒgƒ|ƒƒWƒRƒ“ƒgƒ[ƒ‰‚ÌŠg’£)
+## èª²é¡Œ2 (ãƒˆãƒãƒ­ã‚¸ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ã®æ‹¡å¼µ)
 
-* ƒXƒCƒbƒ`‚ÌÚ‘±ŠÖŒW‚É‰Á‚¦‚ÄAƒzƒXƒg‚ÌÚ‘±ŠÖŒW‚ð•\Ž¦‚·‚é
-* ƒuƒ‰ƒEƒU‚Å•\Ž¦‚·‚é‹@”\‚ð’Ç‰Á‚·‚éB‚¨‚·‚·‚ß‚Í [vis.js](https://github.com/almende/vis) ‚Å‚·
+* ã‚¹ã‚¤ãƒƒãƒã®æŽ¥ç¶šé–¢ä¿‚ã«åŠ ãˆã¦ã€ãƒ›ã‚¹ãƒˆã®æŽ¥ç¶šé–¢ä¿‚ã‚’è¡¨ç¤ºã™ã‚‹
+* ãƒ–ãƒ©ã‚¦ã‚¶ã§è¡¨ç¤ºã™ã‚‹æ©Ÿèƒ½ã‚’è¿½åŠ ã™ã‚‹ã€‚ãŠã™ã™ã‚ã¯ [vis.js](https://github.com/almende/vis) ã§ã™
 
-### ƒOƒ‹[ƒvƒƒ“ƒo[
+### ã‚°ãƒ«ãƒ¼ãƒ—ãƒ¡ãƒ³ãƒãƒ¼
 
-* –Ø“¡ ’l
+* æœ¨è—¤ å´‡äºº
 
-* ‹âˆÇ ˆê‹P
+* éŠ€æ ä¸€è¼
 
-* ‰i•x Œ«
+* æ°¸å¯Œ è³¢
 
-* ‹ÑD G
+* éŒ¦ç¹” ç§€
 
-* ‘ºã —É
+* æ‘ä¸Š é¼
 
-## ‰ð“š
+## è§£ç­”
 
 
-### ƒtƒ@ƒCƒ‹o—Í
-Ú‘±ó‹µ‚ðƒŠƒAƒ‹ƒ^ƒCƒ€‚Éwebƒy[ƒW‚Å•\Ž¦‚·‚é‚½‚ßChtml’†‚Ìjavascript‚ð—p‚¢‚Äƒgƒ|ƒƒW}‚ð•\Ž¦‚³‚¹‚éD
-html‚Åƒgƒ|ƒƒWî•ñ‚ð“Ç‚Ýž‚Þ‚½‚ßCjsonŒ`Ž®‚Åƒgƒ|ƒƒWî•ñ‚ðo—Í‚·‚éƒƒ\ƒbƒh‚ðì¬‚µ‚½ivisJs.rbjD
-visJs.rb ‚Å‚ÍCJOSN.damp() ‚Ìƒƒ\ƒbƒh‚ð—p‚¢‚Ä json Œ`Ž®‚Åƒgƒ|ƒƒWî•ñ‚ðo—Í‚µ‚Ä‚¢‚éD
-topology.rb ‚©‚ç VisJs ƒNƒ‰ƒX‚Ì Update ƒƒ\ƒbƒh‚ðŒÄ‚Ño‚·‚±‚Æ‚Å json Œ`Ž®‚Åƒgƒ|ƒƒWî•ñ‚ªo—Í‚³‚ê‚éD
+### ãƒ•ã‚¡ã‚¤ãƒ«å‡ºåŠ›
+æŽ¥ç¶šçŠ¶æ³ã‚’ãƒªã‚¢ãƒ«ã‚¿ã‚¤ãƒ ã«webãƒšãƒ¼ã‚¸ã§è¡¨ç¤ºã™ã‚‹ãŸã‚ï¼Œhtmlä¸­ã®javascriptã‚’ç”¨ã„ã¦ãƒˆãƒãƒ­ã‚¸å›³ã‚’è¡¨ç¤ºã•ã›ã‚‹ï¼Ž
+htmlã§ãƒˆãƒãƒ­ã‚¸æƒ…å ±ã‚’èª­ã¿è¾¼ã‚€ãŸã‚ï¼Œjsonå½¢å¼ã§ãƒˆãƒãƒ­ã‚¸æƒ…å ±ã‚’å‡ºåŠ›ã™ã‚‹ãƒ¡ã‚½ãƒƒãƒ‰ã‚’ä½œæˆã—ãŸï¼ˆvisJs.rbï¼‰ï¼Ž
+visJs.rb ã§ã¯ï¼ŒJOSN.damp() ã®ãƒ¡ã‚½ãƒƒãƒ‰ã‚’ç”¨ã„ã¦ json å½¢å¼ã§ãƒˆãƒãƒ­ã‚¸æƒ…å ±ã‚’å‡ºåŠ›ã—ã¦ã„ã‚‹ï¼Ž
+topology.rb ã‹ã‚‰ VisJs ã‚¯ãƒ©ã‚¹ã® Update ãƒ¡ã‚½ãƒƒãƒ‰ã‚’å‘¼ã³å‡ºã™ã“ã¨ã§ json å½¢å¼ã§ãƒˆãƒãƒ­ã‚¸æƒ…å ±ãŒå‡ºåŠ›ã•ã‚Œã‚‹ï¼Ž
 
 ```
 require 'json'
@@ -68,12 +68,12 @@ module View
 end
 ```
 
-‚±‚Ìƒƒ\ƒbƒh‚É‚æ‚èo—Í‚³‚ê‚½topology.json‚ðCjavascript(Draw_network.js)‚É‚æ‚è“Ç‚Ýž‚ÝCƒuƒ‰ƒEƒUã‚Å•\Ž¦‚³‚¹‚éhtml(test.html)‚ðì¬‚µ‚½D
-test.html ‚Å‚ÍCDraw_network.js ‚Åo—Í‚³‚ê‚½ƒgƒ|ƒƒW‰æ‘œ‚ðo—Í‚µ‚Ä‚¢‚éD
+ã“ã®ãƒ¡ã‚½ãƒƒãƒ‰ã«ã‚ˆã‚Šå‡ºåŠ›ã•ã‚ŒãŸtopology.jsonã‚’ï¼Œjavascript(Draw_network.js)ã«ã‚ˆã‚Šèª­ã¿è¾¼ã¿ï¼Œãƒ–ãƒ©ã‚¦ã‚¶ä¸Šã§è¡¨ç¤ºã•ã›ã‚‹html(test.html)ã‚’ä½œæˆã—ãŸï¼Ž
+test.html ã§ã¯ï¼ŒDraw_network.js ã§å‡ºåŠ›ã•ã‚ŒãŸãƒˆãƒãƒ­ã‚¸ç”»åƒã‚’å‡ºåŠ›ã—ã¦ã„ã‚‹ï¼Ž
 
-### ƒgƒ|ƒƒW‰æ‘œ‚Ìo—Í
-Draw_network.js ‚Å‚ÍCafterInit function ‚Å json Œ`Ž®‚Ìƒtƒ@ƒCƒ‹‚ð“Ç‚Ýž‚ñ‚Å‚¢‚éD
-‚±‚Ì‚Æ‚« checkObjDiff function ‚ð—p‚¢‚Ä‘O‰ñ“Ç‚Ýž‚ñ‚¾ json Œ`Ž®‚Ìƒtƒ@ƒCƒ‹‚Æ‚Ì·•ª‚ª–³‚¢ê‡‚Íƒtƒ@ƒCƒ‹“Ç‚Ýž‚Ý‚ðs‚í‚È‚¢D
+### ãƒˆãƒãƒ­ã‚¸ç”»åƒã®å‡ºåŠ›
+Draw_network.js ã§ã¯ï¼ŒafterInit function ã§ json å½¢å¼ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã‚“ã§ã„ã‚‹ï¼Ž
+ã“ã®ã¨ã checkObjDiff function ã‚’ç”¨ã„ã¦å‰å›žèª­ã¿è¾¼ã‚“ã  json å½¢å¼ã®ãƒ•ã‚¡ã‚¤ãƒ«ã¨ã®å·®åˆ†ãŒç„¡ã„å ´åˆã¯ãƒ•ã‚¡ã‚¤ãƒ«èª­ã¿è¾¼ã¿ã‚’è¡Œã‚ãªã„ï¼Ž
 
 ```
   var afterInit = function(jsonData) {
@@ -101,21 +101,21 @@ Draw_network.js ‚Å‚ÍCafterInit function ‚Å json Œ`Ž®‚Ìƒtƒ@ƒCƒ‹‚ð“Ç‚Ýž‚ñ‚Å‚¢‚é
   };
 
  var checkObjDiff = function(object1, object2) {
-    // object‚Ì’†g‚ðjson‰»‚·‚é
+    // objectã®ä¸­èº«ã‚’jsonåŒ–ã™ã‚‹
     var object1String = JSON.stringify(object1); 
     var object2String = JSON.stringify(object2);
-    // json•¶Žš—ñ‚Å”äŠr‚·‚é
+    // jsonæ–‡å­—åˆ—ã§æ¯”è¼ƒã™ã‚‹
     if (object1String === object2String) {
-      return false; // “™‚µ‚¯‚ê‚Îfalse
+      return false; // ç­‰ã—ã‘ã‚Œã°false
     } else {
-      return true; // ·•ª‚ª‚ ‚ê‚Îtrue
+      return true; // å·®åˆ†ãŒã‚ã‚Œã°true
     }
   }
 
 ```
 
-drawgraph function ‚É‚æ‚èCafterInit function ‚ÅŽæ‚èž‚ñ‚¾ json Œ`Ž®‚Ìƒtƒ@ƒCƒ‹‚ðŒ³‚Éƒgƒ|ƒƒW‰æ‘œ‚ðì¬‚µ‚Ä‚¢‚éD
-DataSet ‚É‚æ‚èƒtƒ@ƒCƒ‹‚©‚çŽæ‚èž‚ñ‚¾ƒf[ƒ^‚ð vis ‚É“ü—Í‚µ‚ÄCNetwork ‚Åƒgƒ|ƒƒW‰æ‘œ‚ð•\Ž¦‚µ‚Ä‚¢‚éD
+drawgraph function ã«ã‚ˆã‚Šï¼ŒafterInit function ã§å–ã‚Šè¾¼ã‚“ã  json å½¢å¼ã®ãƒ•ã‚¡ã‚¤ãƒ«ã‚’å…ƒã«ãƒˆãƒãƒ­ã‚¸ç”»åƒã‚’ä½œæˆã—ã¦ã„ã‚‹ï¼Ž
+DataSet ã«ã‚ˆã‚Šãƒ•ã‚¡ã‚¤ãƒ«ã‹ã‚‰å–ã‚Šè¾¼ã‚“ã ãƒ‡ãƒ¼ã‚¿ã‚’ vis ã«å…¥åŠ›ã—ã¦ï¼ŒNetwork ã§ãƒˆãƒãƒ­ã‚¸ç”»åƒã‚’è¡¨ç¤ºã—ã¦ã„ã‚‹ï¼Ž
 
 ```
   var drawgraph = function(node_data, link_data){
@@ -131,27 +131,20 @@ DataSet ‚É‚æ‚èƒtƒ@ƒCƒ‹‚©‚çŽæ‚èž‚ñ‚¾ƒf[ƒ^‚ð vis ‚É“ü—Í‚µ‚ÄCNetwork ‚Åƒgƒ|ƒƒW‰
   }
 ```
 
-## “®ìŠm”F
-} 1 ‚Ì‚æ‚¤‚ÉÚ‘±‚µ‚½ê‡C} 2 ‚Ì‚æ‚¤‚Èƒgƒ|ƒƒW‰æ‘œ‚ªo—Í‚³‚ê‚½D
-|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
+## å‹•ä½œç¢ºèª
+å›³ 1 ã®ã‚ˆã†ã«æŽ¥ç¶šã—ãŸå ´åˆï¼Œå›³ 2 ã®ã‚ˆã†ãªãƒˆãƒãƒ­ã‚¸ç”»åƒãŒå‡ºåŠ›ã•ã‚ŒãŸï¼Ž
+|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch_after.jpg" width="420px">|  
 |:----------------------------------------------------------------------------------------------------:|  
-|                                   } 1 ƒP[ƒuƒ‹‚Ì—lŽq		                                       |  
-|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
-|:----------------------------------------------------------------------------------------------------:|  
-|                                   } 2 ƒgƒ|ƒƒW‰æ‘œ		                                       |  
+|                                   å›³ 1 ã‚±ãƒ¼ãƒ–ãƒ«ã®æ§˜å­		                                       |  
 
-‚Ü‚½C} 3 ‚ÌŽÊ^‚Ì‚æ‚¤‚ÉÚ‘±‚µ‚½ê‡Cƒgƒ|ƒƒW‰æ‘œ‚ª} 4 ‚Ì‚æ‚¤‚É•ÏX‚³‚ê‚½D
-|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
+|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/ss1.pmg" width="420px">|  
 |:----------------------------------------------------------------------------------------------------:|  
-|                                   } 3 ƒP[ƒuƒ‹‚Ì—lŽq(Ú‘±•ÏXŒã)		                       |  
-|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
-|:----------------------------------------------------------------------------------------------------:|  
-|                                   } 4 ƒgƒ|ƒƒW‰æ‘œ(Ú‘±•ÏXŒã)                                       |  
+|                                   å›³ 2 ãƒˆãƒãƒ­ã‚¸ç”»åƒ		                                       |  
 
 
-## vŒ£“x
-–Ø“¡: 60%  
-‹âˆÇ: 10%  
-‰i•x: 10%  
-‹ÑD: 10%  
-‘ºã: 10%
+## è²¢çŒ®åº¦
+æœ¨è—¤: 60%  
+éŠ€æ: 10%  
+æ°¸å¯Œ: 10%  
+éŒ¦ç¹”: 10%  
+æ‘ä¸Š: 10%
