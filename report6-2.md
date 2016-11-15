@@ -133,11 +133,12 @@ DataSet によりファイルから取り込んだデータを vis に入力し�
 
 ## 動作確認
 図 1 のように接続した場合，図 2 のようなトポロジ画像が出力された．
-|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch_after.jpg" width="420px">|  
+
+|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch_after.JPG" width="420px">|  
 |:-------------------------------------------------------------------------------------------------------------:|  
 |                                   図 1 ケーブルの様子		                                                       |  
 
-|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/ss1.pmg" width="420px">|  
+|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/ss1.png" width="420px">|  
 |:----------------------------------------------------------------------------------------------------:|  
 |                                   図 2 トポロジ画像		                                               |  
 
