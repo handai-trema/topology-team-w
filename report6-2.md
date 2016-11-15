@@ -132,8 +132,22 @@ DataSet ‚É‚æ‚èƒtƒ@ƒCƒ‹‚©‚çŽæ‚èž‚ñ‚¾ƒf[ƒ^‚ð vis ‚É“ü—Í‚µ‚ÄCNetwork ‚Åƒgƒ|ƒƒW‰
 ```
 
 ## “®ìŠm”F
-ŽÊ^‚Ì‚æ‚¤‚ÉÚ‘±‚µ‚½ê‡CŽŸ‚Ì‚æ‚¤‚Èƒgƒ|ƒƒW‰æ‘œ‚ªo—Í‚³‚ê‚½D
-‚Ü‚½CŽŸ‚ÌŽÊ^‚Ì‚æ‚¤‚ÉÚ‘±‚µ‚½ê‡Cƒgƒ|ƒƒW‰æ‘œ‚ªŽŸ‚Ì‚æ‚¤‚É•ÏX‚³‚ê‚½D
+} 1 ‚Ì‚æ‚¤‚ÉÚ‘±‚µ‚½ê‡C} 2 ‚Ì‚æ‚¤‚Èƒgƒ|ƒƒW‰æ‘œ‚ªo—Í‚³‚ê‚½D
+|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
+|:----------------------------------------------------------------------------------------------------:|  
+|                                   } 1 ƒP[ƒuƒ‹‚Ì—lŽq		                                       |  
+|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
+|:----------------------------------------------------------------------------------------------------:|  
+|                                   } 2 ƒgƒ|ƒƒW‰æ‘œ		                                       |  
+
+‚Ü‚½C} 3 ‚ÌŽÊ^‚Ì‚æ‚¤‚ÉÚ‘±‚µ‚½ê‡Cƒgƒ|ƒƒW‰æ‘œ‚ª} 4 ‚Ì‚æ‚¤‚É•ÏX‚³‚ê‚½D
+|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
+|:----------------------------------------------------------------------------------------------------:|  
+|                                   } 3 ƒP[ƒuƒ‹‚Ì—lŽq(Ú‘±•ÏXŒã)		                       |  
+|<img src="https://github.com/handai-trema/topology-team-w/blob/develop/picture/switch.jpg" width="420px">|  
+|:----------------------------------------------------------------------------------------------------:|  
+|                                   } 4 ƒgƒ|ƒƒW‰æ‘œ(Ú‘±•ÏXŒã)                                       |  
+
 
 ## vŒ£“x
 –Ø“¡: 60%  
